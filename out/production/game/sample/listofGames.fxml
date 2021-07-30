@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="708.0" prefWidth="943.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ListController">
+   <children>
+      <ImageView fitHeight="709.0" fitWidth="957.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@list.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <ListView fx:id="listGames" layoutX="59.0" layoutY="69.0" opacity="0.99" prefHeight="495.0" prefWidth="214.0" stylesheets="@sample.css">
+         <styleClass>
+            <String fx:value="list-cell" />
+            <String fx:value="list-view" />
+         </styleClass>
+      </ListView>
+   </children>
+</AnchorPane>

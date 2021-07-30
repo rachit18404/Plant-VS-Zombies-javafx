@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="488.0" prefWidth="646.0" styleClass="bodybg" stylesheets="@sample.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane />
+      <TextField fx:id="name" layoutX="135.0" layoutY="88.0" promptText="name" />
+      <RadioButton fx:id="start" layoutX="179.0" layoutY="171.0" mnemonicParsing="false" onAction="#Login" styleClass="green" stylesheets="@sample.css" text="Enter Game" textFill="#e56666" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Comic Sans MS" size="19.0" />
+         </font>
+      </RadioButton>
+   </children>
+</AnchorPane>
